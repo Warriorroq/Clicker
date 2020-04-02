@@ -1,0 +1,11 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+public class Pixase : MonoBehaviour {
+
+    public void AddMoney()
+    {
+        Camera.main.GetComponent<Money>().money += Camera.main.GetComponent<Money>().currentAddMoney;
+    }
+}
