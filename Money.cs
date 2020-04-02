@@ -18,6 +18,7 @@ public class Money : MonoBehaviour {
     }
     private void Start()
     {
+        //Check on Restart
         if (currentAddMoney == 0)
         { currentAddMoney += addMoneyPerLevels[0];}
     }
